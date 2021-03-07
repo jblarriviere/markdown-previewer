@@ -9,12 +9,12 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    let placeholder = "# Welcome to my React Markdown Previewer!\r## This is a sub-heading...\r### And here's some other cool stuff:\rHeres some code, `<div></div>`, between 2 backticks.\r```\r// this is multi-line code:\r\rfunction anotherExample(firstLine, lastLine) {\r\tif (firstLine == \'```\' && lastLine == \'```\') {\r\t\treturn multiLineCode;\r\t}\r}\r```\r"
+    let placeholder = "# Welcome to my React Markdown Previewer!\r## This is a sub-heading...\r### And here's some other cool stuff:\rHeres some code, `<div></div>`, between 2 backticks.\r```\r// this is multi-line code:\r\rfunction anotherExample(firstLine, lastLine) {\r\tif (firstLine == '```' && lastLine == '```') {\r\t\treturn multiLineCode;\r\t}\r}\r```\r"
                 + "You can also make text **bold**... whoa!\r"
                 + "Or _italic_.\r"
                 + "Or... wait for it... **_both!_**\r"
                 + "And feel free to go crazy ~~crossing stuff out~~.\r\r"
-                + "There\'s also [links](https://www.freecodecamp.com), and\r"
+                + "There's also [links](https://www.freecodecamp.com), and\r"
                 + "> Block Quotes!\r"
                 + "- And of course there are lists.\r"
                 + "\t- Some are indented\r\r"
