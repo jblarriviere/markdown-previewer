@@ -10,8 +10,15 @@
 
 # production
 /build
+
+# sass-related files and compiled css
 /src/index.css
 /src/index.css.map
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 
 # misc
 .DS_Store
